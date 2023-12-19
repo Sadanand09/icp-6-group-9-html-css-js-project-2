@@ -1,14 +1,14 @@
 const words = [
-    "kartik",
-    "pratik",
-    "kishori",
-    "om",
-    "sai",
-    "rutik",
-    "pooja",
-    "vaidehi",
-    "vaishnavi",
-    "ganesh"
+    "play",
+    "catch",
+    "runnig",
+    "throw",
+    "winner",
+    "Footboll",
+    "swimming",
+    "Cricket",
+    "hocey",
+    "boxing"
 ];
 
 const hints = [
