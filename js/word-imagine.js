@@ -1,11 +1,10 @@
 const words = [
     "kartik",
     "pratik",
-    "sagar",
+    "kishori",
     "om",
-    "kalyani",
+    "sai",
     "rutik",
-    "sadanand",
     "pooja",
     "vaidehi",
     "vaishnavi",
@@ -24,7 +23,7 @@ const hints = [
     "imagine a correct name",
     "imagine a correct name",
     "imagine a correct name",
-    "imagine a correct name",
+   
     
 ];
 
@@ -52,12 +51,12 @@ function check() {
         input.value.toLocaleLowerCase() ===
         displayWord.toLocaleLowerCase()
     )
-        output.innerHTML = "Result: Congragulation";
+        output.innerHTML = "Result: CongratulationS💐💐";
     else output.innerHTML = "Result: Incorrect";
 }
 
 function refresh() {
-    index = Math.floor(Math.random() * 11);
+    index = Math.floor(Math.random() * 10);
     displayWord = words[index];
     displayHint = hints[index];
     scrambleWord =
