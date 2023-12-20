@@ -7,6 +7,23 @@
 body {
   height: 100vh;
   background: linear-gradient(135deg, #8052ec, #d161ff);
+  
+}
+h1{
+  font-size: 50px;
+  
+  border-radius: 8px;
+  background-color: #0a0027;
+  color: #ffffff;
+  border: none;
+  position: relative;
+  padding: 1px;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 2px;
+  border:solid 1px white;
+  
+  
 }
 html {
   font-size: 16px;
@@ -31,7 +48,7 @@ html {
   border: none;
   border-radius: 8px;
   font-size: 12vmin;
-  color: #d161ff;
+  color: black;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 #restart {
