@@ -9,6 +9,13 @@ body {
   background: linear-gradient(135deg, #8052ec, #d161ff);
   
 }
+.home-logo{
+  margin: 20px;
+}
+.home-img{
+  background-color: red;
+  border-radius: 100px;
+}
 h1{
   font-size: 50px;
   

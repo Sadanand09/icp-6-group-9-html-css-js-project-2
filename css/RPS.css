@@ -3,6 +3,13 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.home-logo{
+    margin: 20px;
+}
+.home-img{
+    background-color: red;
+    border-radius: 100px;
+}
 .choiceBtn{
     
     line-height: 40px;

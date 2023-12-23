@@ -8,6 +8,13 @@ body {
     background-image: url("./../img/backgroun-image.jpg");
     background-size: cover;
 } 
+.home-logo{
+    margin: 20px;
+}
+.home-img{
+    background-color: red;
+    border-radius: 100px;
+}
   
 .root { 
     font-size: 20px; 

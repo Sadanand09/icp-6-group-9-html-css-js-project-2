@@ -11,6 +11,13 @@
     border-radius: $radius;
     -khtml-border-radius: $radius;
 }
+.home-logo{
+    margin: 20px;
+}
+.home-img{
+    background-color: red;
+    border-radius: 100px;
+}
 
 body {
     background-image: url("/img/bg9.jpeg");
