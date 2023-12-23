@@ -13,16 +13,16 @@ const words = [
 
 const hints = [
    
-    "imagine a correct name",
-    "imagine a correct name",
-    "imagine a correct name",
-    "imagine a correct name",
-    "imagine a correct name",
-    "imagine a correct name",
-    "imagine a correct name",
-    "imagine a correct name",
-    "imagine a correct name",
-    "imagine a correct name",
+    "imagine a match name",
+    "imagine a match name",
+    "imagine a match name",
+    "imagine a match name",
+    "imagine a match name",
+    "imagine a match name",
+    "imagine a match name",
+    "imagine a match name",
+    "imagine a match name",
+    "imagine a match name",
    
     
 ];
