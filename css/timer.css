@@ -1,10 +1,13 @@
 body{
-    background-color: black;
+    background-image: url("/img/bg9.jpeg");
+    background-size: cover;
     color: white;
+
 }
 .heading{
     font-size: 55px;
     text-align: center;
+    margin-top: 100px;
 }
 .main{
     display: flex;
@@ -12,6 +15,7 @@ body{
     justify-content: space-evenly;
     position: relative;
     top: 200px;
+    
 }
 .gif{
     height: 350px;
@@ -28,6 +32,7 @@ body{
     padding: 25px;
     border-radius: 25px;
     box-shadow: 2px 3px 2px;
+    background-color: #000;
 }
 .input{
     font-size: 20px;
@@ -45,12 +50,18 @@ body{
 
 }
 .btn{
-    font-size: 24px;
-    background-color: white;
-    padding: 15px;
-    width: 200px;
-    height: 100px;
-    border-radius: 50%;
+    color: #fff;
+    border-radius: 4%;
+    background-color: brown;
+    border: none;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 4px;
+    font-family: sans-serif;
 }
 .btn:hover{
     background-color: black;
