@@ -187,8 +187,9 @@ li{
     background-size: cover;
 }
 .games{
+    
     text-align: center;
-    padding: 20px;
+    padding: 50px;
     
 }
 .games-title{
@@ -200,20 +201,31 @@ li{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+
+    align-items: center;
 }
 .card{
     background-color: #000;
     color: #fff;
-    height: 400px;
-    width: 300px;
+    height: 450px;
+    width: 340px;
     padding: 20px;
     border: 2px solid gray;
     border-radius: 20px;
+    text-align: center;
+    
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease;
+    box-shadow: 6px 8px 20px 0px gray ;
 }
 .game-img{
-    height: 300px;
+    height: 390px;
+    width: 300px;
     border: 2px solid gray;
     border-radius: 20px;
+    
 }
 .game-name{
     font-size: 25px;
@@ -226,6 +238,7 @@ li{
     flex-direction: row;
     justify-content: space-evenly;
     color: #fff;
+    border-top: 3px solid red ;
     
 }
 
@@ -280,3 +293,463 @@ li{
 .b{
     margin-bottom: 12px;
 }
+
+@media screen and (min-width: 400px) and (max-width:768px){
+    body{
+        background-color: #000;
+    }
+    .arr-img{
+        position: fixed;
+        left: 600px;
+        top: 860px;
+    }
+    header {
+        height: 700px;
+        background-image: url("/img/bg2.jpg");
+        background-size: cover;
+        font-family: sans-serif;
+    }
+    .logo-img{
+        height: 60px;
+        position: relative;
+        top: 0px;
+        right: 10px;
+    
+    }
+    .logo {
+        font-size: 34px;
+        letter-spacing: 0px;
+        position: relative;
+        right: 45px;
+        top: 0px;
+    
+    }
+    .menu a {
+        text-decoration: none;
+        color: white;
+        padding: 0px 5px;
+        font-size: 14px;
+        position: relative;
+        left: 5px;
+    }
+    .button {
+        border-radius: 4%;
+        font-size: 14px;
+        padding: 5px;
+        width:110px;
+    }
+    .h-txt {
+        font-size: 20px;
+        position: absolute;
+        top: 51%;
+        left: 530px;
+    }
+    
+    .h2-text{
+        font-size: 20px;
+        left: 290px;
+        top: 70px;
+    }
+    .div-head{
+        text-align: center;
+        color: yellow;
+        font-size: 34px;
+    }
+    
+    .sub-div{
+        font-size: 18px;
+    }
+    .card-container{
+        flex-direction: column;  
+    }
+    .card{
+        
+        margin: 30px;
+    }
+    .footer{
+    
+        height: 280px;
+        padding: 30px;
+    }
+    
+    .footer-img{
+        height: 120px;
+        bottom: 20px;
+        right: 20px;
+    }
+    .social-m{
+        bottom: 30px;
+        right: 15px;
+        height: 30px;
+    }
+    
+    .logo2{
+        font-size: 20px;
+        bottom: 35px;
+        left: -5px;
+        margin: 10px 0;
+    }
+    .s-column{
+        font-size: 14px;
+        margin-top: 40px;
+    }
+    
+    .button{
+        border-radius: 10px;
+        
+    }
+
+}
+@media screen and (min-width:768px) and (max-width:1169px){
+    body{
+        background-color: #000;
+    }
+    .arr-img{
+        position: fixed;
+        left: 890px;
+        top: 860px;
+    }
+    header {
+        height: 700px;
+        background-image: url("/img/bg2.jpg");
+        background-size: cover;
+        font-family: sans-serif;
+    }
+    .logo-img{
+        height: 60px;
+        position: relative;
+        top: 0px;
+        right: 10px;
+    
+    }
+    .logo {
+        font-size: 34px;
+        letter-spacing: 0px;
+        position: relative;
+        right: 45px;
+        top: 0px;
+    
+    }
+    .menu a {
+        text-decoration: none;
+        color: white;
+        padding: 0px 5px;
+        font-size: 14px;
+        position: relative;
+        left: 5px;
+    }
+    .button {
+        border-radius: 4%;
+        font-size: 14px;
+        padding: 5px;
+        width:110px;
+    }
+    .h-txt {
+        font-size: 20px;
+        position: absolute;
+        top: 51%;
+        left: 580px;
+    }
+    
+    .h2-text{
+        font-size: 20px;
+        left: 400px;
+        top: 70px;
+    }
+    .div-head{
+        text-align: center;
+        color: yellow;
+        font-size: 34px;
+    }
+    
+    .sub-div{
+        font-size: 18px;
+    }
+    .card-container{
+        flex-direction: column;  
+    }
+    .card{
+        
+        margin: 30px;
+    }
+    .footer{
+    
+        height: 280px;
+        padding: 30px;
+    }
+    
+    .footer-img{
+        height: 120px;
+        bottom: 20px;
+        right: 20px;
+    }
+    .social-m{
+        bottom: 30px;
+        right: 15px;
+        height: 30px;
+    }
+    
+    .logo2{
+        font-size: 20px;
+        bottom: 35px;
+        left: -5px;
+        margin: 10px 0;
+    }
+    .s-column{
+        font-size: 14px;
+        margin-top: 40px;
+    }
+    
+    .button{
+        border-radius: 10px;
+        
+    }
+
+
+}
+@media screen and (min-width:1170px) and (max-width:1330px){
+    body{
+        background-color: #000;
+    }
+    .arr-img{
+        position: fixed;
+        left: 990px;
+        top: 860px;
+    }
+    header {
+        height: ;
+        background-image: url("/img/bg2.jpg");
+        background-size: cover;
+        font-family: sans-serif;
+    }
+    .logo-img{
+        height: 120px;
+        position: relative;
+        top: 0px;
+        right: 10px;
+    
+    }
+    .logo {
+        font-size: 44px;
+        letter-spacing: 0px;
+        position: relative;
+        right: 45px;
+        top: 0px;
+    
+    }
+    .menu a {
+        text-decoration: none;
+        color: white;
+        padding: 10px 10px;
+        font-size: 19px;
+        position: relative;
+        left: 15px;
+    }
+    .button {
+        border-radius: 4%;
+        font-size: 20px;
+        padding: 10px;
+        width:120px;
+    }
+    .h-txt {
+        font-size: 20px;
+        position: absolute;
+        top: 51%;
+        left: 1000px;
+    }
+    
+    .h2-text{
+        font-size: 20px;
+        left: 800px;
+        top: 70px;
+    }
+    .footer{
+    
+        height: 300px;
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        color: #fff;
+        border-top: 3px solid red ;
+        
+    }
+    
+    .footer-img{
+        height: 250px;
+        position: relative;
+        bottom: 20px;
+        right: 30px;
+    }
+    .social-m{
+        position: relative;
+        bottom: 30px;
+        right: 15px;
+    }
+    .input{
+        border-radius: 15px;
+        background-color: #fff;
+        color: #000;
+    }
+    
+    .kahi{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .logo2{
+        font-size: 2.1em;
+        letter-spacing: 2px;
+        background: linear-gradient(90deg, cyan, purple);
+        font-size: poppins;
+        text-transform: uppercase;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: relative;
+        bottom: 45px;
+        left: 20px;
+    }
+    .s-column{
+        color: #fff;
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    .a{
+        color: #fff;
+        padding: 10px;
+        
+    }
+    .button{
+        border-radius: 10px;
+        
+    }
+    .b{
+        margin-bottom: 12px;
+    }
+
+}
+@media screen and (min-width:1331px) and (max-width:1900px){
+    body{
+        background-color: #000;
+    }
+    .arr-img{
+        position: fixed;
+        left: 1390px;
+        top: 860px;
+    }
+    header {
+        height: ;
+        background-image: url("/img/bg2.jpg");
+        background-size: cover;
+        font-family: sans-serif;
+    }
+    .logo-img{
+        height: 120px;
+        position: relative;
+        top: 0px;
+        right: 10px;
+    
+    }
+    .logo {
+        font-size: 44px;
+        letter-spacing: 0px;
+        position: relative;
+        right: 45px;
+        top: 0px;
+    
+    }
+    .menu a {
+        text-decoration: none;
+        color: white;
+        padding: 10px 10px;
+        font-size: 19px;
+        position: relative;
+        left: 15px;
+    }
+    .button {
+        border-radius: 4%;
+        font-size: 20px;
+        padding: 10px;
+        width:120px;
+    }
+    .h-txt {
+        font-size: 20px;
+        position: absolute;
+        top: 51%;
+        left: 1000px;
+    }
+    
+    .h2-text{
+        font-size: 20px;
+        left: 800px;
+        top: 70px;
+    }
+    .footer{
+    
+        height: 300px;
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        color: #fff;
+        border-top: 3px solid red ;
+        
+    }
+    
+    .footer-img{
+        height: 250px;
+        position: relative;
+        bottom: 20px;
+        right: 30px;
+    }
+    .social-m{
+        position: relative;
+        bottom: 30px;
+        right: 15px;
+    }
+    .input{
+        border-radius: 15px;
+        background-color: #fff;
+        color: #000;
+    }
+    
+    .kahi{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .logo2{
+        font-size: 2.1em;
+        letter-spacing: 2px;
+        background: linear-gradient(90deg, cyan, purple);
+        font-size: poppins;
+        text-transform: uppercase;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: relative;
+        bottom: 45px;
+        left: 20px;
+    }
+    .s-column{
+        color: #fff;
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    .a{
+        color: #fff;
+        padding: 10px;
+        
+    }
+    .button{
+        border-radius: 10px;
+        
+    }
+    .b{
+        margin-bottom: 12px;
+    }
+
+}
+
+    
+
+    
