@@ -1,12 +1,18 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .choiceBtn{
-    line-height: 30px;
+    
+    line-height: 40px;
     font-weight: 500;
     font-family: cursive;
-    border-radius: 10px;
+    border-radius: 5px;
     width: 120px;
     margin: 5px;
     color: white;
-    background: linear-gradient(45deg, rgb(202, 24, 24), rgb(250, 57, 89), rgb(118, 11, 118), rgb(50, 14, 108));
+    background-color: brown;
     letter-spacing: 0.5px;
     cursor: pointer;
 }
@@ -18,12 +24,14 @@
     font-family: 'Times New Roman', Times, serif;
     width: 400px;
     padding: 50px 80px;
-    border: 5px solid rgb(86, 85, 85);
-    border-radius: 10px;
+    border:  1px solid rgb(204, 0, 255);
+    box-shadow: 2px 4px 2px 4px rebeccapurple;
+    border-radius: 5px;
     color: transparent;
-    background: linear-gradient(to right, rgb(202, 24, 24), rgb(250, 57, 89), rgb(118, 11, 118), rgb(50, 14, 108));;
-    -webkit-background-clip: text;
+    background: black;
+    color: white;
     margin: 100px 100px 100px 475px;
+    margin-left: 475px;
 }
 #playerText{
     color: blueviolet;
@@ -33,4 +41,105 @@
 }
 .h-text{
     font-family: 'Times New Roman', Times, serif;
+}
+
+
+@media only screen and (max-width: 650px)
+{ 
+    #gameDiv{
+        background-color: black;
+        width: 200px;
+        font-size: 12px;
+        margin-left: 100px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 10px 20px;
+        border:  1px solid rgb(204, 0, 255);
+        box-shadow: 2px 2px 2px 2px rebeccapurple;
+        border-radius: 5px;
+        color: transparent;
+        color: white;
+    }
+    .choiceBtn{
+        text-align: center;
+        line-height: 10px;
+        font-weight: 100;
+        font-family: cursive;
+        border-radius: 5px;
+        font-size: 14px;
+        width: 100px;
+        padding: 7px;
+        margin: 5px;
+        margin-left: 50px;
+        color: white;
+        background-color: brown;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+    }
+    #playerText, #computerText{
+        text-align: center;
+        font-size: 16px;
+    }
+    .choiceBtn:hover{
+        box-shadow: 0 0 7px rgb(204, 0, 255);
+        transition: .15s all ease-out;
+    }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 1000px)
+{ 
+    #gameDiv{
+        background-color: black;
+        width: 300px;
+        font-size: 16px;
+        margin-left: 400px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 30px 50px;
+        border:  1px solid rgb(204, 0, 255);
+        box-shadow: 2px 2px 2px 2px rebeccapurple;
+        border-radius: 5px;
+        color: transparent;
+        color: white;
+    }
+    .choiceBtn{
+        text-align: center;
+        line-height: 10px;
+        font-weight: 100;
+        font-family: cursive;
+        border-radius: 5px;
+        font-size: 16px;
+        width: 120px;
+        padding: 10px;
+        margin: 5px;
+        margin-left: 90px;
+        color: white;
+        background-color: brown;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+    }
+    #playerText, #computerText{
+        text-align: center;
+        font-size: 20px;
+    }
+    .choiceBtn:hover{
+        box-shadow: 0 0 7px rgb(204, 0, 255);
+        transition: .15s all ease-out;
+    }
+}
+
+@media only screen and (min-width: 1000px)
+{ 
+    #gameDiv{
+        background-color: aquamarine;
+        width: max-content;
+        margin-left: 150px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 50px 80px;
+        border:  1px solid rgb(204, 0, 255);
+        box-shadow: 2px 4px 2px 4px rebeccapurple;
+        border-radius: 5px;
+        color: transparent;
+        background: black;
+        color: white;
+        margin: 100px 100px 100px 475px;
+    }
 }
