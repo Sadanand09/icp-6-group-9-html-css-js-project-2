@@ -5,11 +5,8 @@ body {
     background-color: rgb(246, 237, 237);
     align-items: center; 
     min-height: 50vh; 
-<<<<<<< HEAD
     background-image: url("/img/bg9.jpeg");
-=======
-    background-image: url("./../img/bg9.jpeg");
->>>>>>> f5bfba098eaef4b8dec6cf1129996a99815cdf65
+    /* background-image: url("./../img/bg9.jpeg"); */
     background-size: cover;
 } 
 .home-logo{
