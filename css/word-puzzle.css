@@ -1,18 +1,15 @@
 body { 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
+    
+    
     background-color: rgb(246, 237, 237);
-    align-items: center; 
+    /* align-items: center;  */
     min-height: 50vh; 
     background-image: url("./../img/bg9.jpeg");
     background-size: cover;
 } 
 .home-logo{
     margin: 20px;
-    position: relative;
-    right: 930px;
-    bottom: 25px;
+    
 
 
 }
@@ -22,20 +19,26 @@ body {
 }
   
 .root { 
+    margin: auto auto;
     font-size: 20px; 
     color: rgb(246, 237, 245); 
     background-color: rgb(50, 47, 47); 
     box-shadow: 0 0px 10px 0px grey; 
-    padding: 0% 5% 1% 5%; 
+    width: 600px;
     text-align: center; 
     border-radius: 5px; 
-    margin-top: 80px;
+    align-items: center;
+    
 } 
   
 .title { 
     margin-top: 10px;
-    border-bottom: 1px dotted gray; 
+    color: #fff;
+    font: 64px;
     border-color: rgb(167, 157, 157); 
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
     
 } 
   
