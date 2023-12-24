@@ -6,12 +6,23 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
+.home-logo{
+  margin: 20px;
+}
+.home-img{
+  background-color: red;
+  border-radius: 100px;
+  position: relative;
+  bottom: 490px;
+  right: 560px;
+}
 body {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #E3F2FD;
+  background-image:url(/img/bg9.jpeg);
+  background-size: cover;
 }
 .wrapper {
   width: 65vmin;

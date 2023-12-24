@@ -2,12 +2,16 @@ body {
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
-    background-color: rgb(163, 153, 153);
+    background-image: url(/img/bg9.jpeg);
+    background-size: cover;
     align-items: center; 
     min-height: 50vh; 
 } 
 .home-logo{
     margin: 20px;
+    position: relative;
+    right: 930px;
+    bottom: 25px;
 }
 .home-img{
     background-color: red;

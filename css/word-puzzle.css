@@ -5,11 +5,16 @@ body {
     background-color: rgb(246, 237, 237);
     align-items: center; 
     min-height: 50vh; 
-    background-image: url("./../img/backgroun-image.jpg");
+    background-image: url("./../img/bg9.jpeg");
     background-size: cover;
 } 
 .home-logo{
     margin: 20px;
+    position: relative;
+    right: 930px;
+    bottom: 25px;
+
+
 }
 .home-img{
     background-color: red;
