@@ -1,184 +1,214 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Zone X</title>
-    <style>
-       
+
+<head>
+  <title>Zone X</title>
+  <style>
+    .feedback {
+      text-align: center;
+      color: #fff;
+      margin-top: 80px;
+      margin-bottom: -20px;
+
+    }
+
+    .home-logo {
+      margin: 20px;
 
 
-        .feedback{
-          text-align: center;
-          
-        }
+    }
 
-        .feedback-card{
-            background-color: #ececdd;
-            width: 350px;
-            padding: 20px;
-            margin-left: 35%;
-            border-radius: 15px;
-            text-align: center;
-            margin-top: 5%;
-            box-shadow: -2px 2px 5px 2px rgba(0, 0, 0, 0.5);
+    .home-img {
 
+      border-radius: 100px;
+      background-color: red;
 
-        }
+    }
 
-       
+    body {
+      background-image: url(/img/bg9.jpeg);
+      background-size: cover;
+    }
 
-        .imgg{
-          width: 130px;
-        }
-
-        .Comment-card{
-          background-color: rgb(245, 221, 185);
-          height: 100px;
-          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-          font-size: 15px;
-          border-radius: 5px;
-          padding-top: 7px;
-          color: rgb(109, 105, 105);
-        
-        }
-
-        .card-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-            margin: 20px 0;
-            padding: 10px;
-
-        }
-
-        .team-member-card {
-            width: 250px;
-            border: 1px solid #eee;
-            text-align: center;
-            padding: 25px 20px;
-            margin: 10px 20px;
-            background-color: white;
-            border-radius: 10px;
-            position: relative;
-            box-shadow: -2px 2px 5px 2px rgba(0, 0, 0, 0.5);
-        }
-
-        .team-member-card:hover {
-            border: 2px solid #eee;
-            cursor: pointer;
-            text-align: center;
-            margin: 10px 20px;
-            transition: 0.3s;
-        }
-
-        .card-title {
-            font-size: 15px;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-
-        .card-img-1 {
-            width: 150px;
-            height: 150px;
-            margin-top: 20px;
-            margin-left: auto;
-            margin-right: auto;
-            padding: 20px;
-            display: block;
-            justify-content: center;
-            border-radius: 50%;
-        }
-        .card-img-1:hover{
-            height: 170px;
-            width: 170px;
-            
-        }
-
-        .feedback-card:hover{
-          filter: saturate(2);
-          transform: scale(1.03);
-        }
-
-       .imgg:hover{
-        filter: saturate(2);
-          transform: scale(1.03);
-       }
-     </style>
-  </head>
-  <body>
-
-   
-      <div class="feedback-card">
-
-       <h1 class="feedback">FEEDBACK</h1>
-       <img src="C:\Users\hp\Desktop\javas\icp-6-group-9-html-css-js-project-2\img\feedback.png" class="imgg">
-       <h3>Please Rate Your Experience</h3>
-       <h1>⭐⭐⭐⭐⭐</h1>
-       <h3>Additional Comment</h3>
-       <h6 class="Comment-card">Add feedback comment</h6>
-      </div>
-
-      <div class="card-container">
-
-        <div class="team-member-card">
-            <img src="C:\Users\hp\Desktop\javas\icp-6-group-9-html-css-js-project-2\img\man.png" class="card-img-1">
-
-            <p class="card-title">Name : Rocky</p>
-            <p>This gaming flatform such to good!!
-              I am so impressed😍</p>
-
-        </div>
-
-       
-
-          <div class="team-member-card">
-              <img src="C:\Users\hp\Desktop\javas\icp-6-group-9-html-css-js-project-2\img\woman.png" class="card-img-1">
-
-              <p class="card-title">Name : Seema</p>
-             
-              <p>I am earning daily 10k💸and i am so happy to this site
-                thanku!!🤑
-              </p>
-
-          </div>
-
-         
-
-            <div class="team-member-card">
-                <img src="C:\Users\hp\Desktop\javas\icp-6-group-9-html-css-js-project-2\img\man.png" class="card-img-1">
-
-                <p class="card-title">Name : Ritesh</p>
-                <p>ohh!! i am impressed😍</p>
-           </div>
-
-           <div class="team-member-card">
-            <img src="C:\Users\hp\Desktop\javas\icp-6-group-9-html-css-js-project-2\img\woman.png" class="card-img-1">
-
-            <p class="card-title">Name : Aarohi</p>
-            <p>guys hurry up and come to this Gamezone site🤑💸
-              i like that many more times!!
-            </p>
-       </div>
-
-       <div class="team-member-card">
-        <img src="C:\Users\hp\Desktop\javas\icp-6-group-9-html-css-js-project-2\img\man.png" class="card-img-1">
-
-        <p class="card-title">Name : Bob</p>
-        
-        <p>many games options are available to earning money😍
-          so i can suggest absolutely visit here!!🤑
-        </p>
-   </div>
-
-   <div class="team-member-card">
-    <img src="C:\Users\hp\Desktop\javas\icp-6-group-9-html-css-js-project-2\img\woman.png" class="card-img-1">
-
-    <p class="card-title">Name : Vira</p>
-   
-    <p>I am meet a so many people in this platform.
-      and i am suggest any other people this site workable to our life😍💸
-    </p>
-</div>
+    .feedback-card {
+      background-color: #000;
+      width: 350px;
+      padding: 20px;
+      margin: auto;
+      border-radius: 15px;
+      text-align: center;
+      color: #fff;
+      margin-top: 5%;
+      box-shadow: -2px 2px 5px 2px rgba(0, 0, 0, 0.5);
 
 
-  </body>
+    }
+
+
+
+    .imgg {
+      width: 130px;
+    }
+
+    .Comment-card {
+      background-color: #fff;
+      height: 100px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 15px;
+      border-radius: 5px;
+      padding-top: 7px;
+      color: #000);
+
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin: 20px 0;
+      padding: 10px;
+
+    }
+
+    .team-member-card {
+      width: 250px;
+      border: 1px solid #eee;
+      text-align: center;
+      padding: 25px 20px;
+      margin: 10px 20px;
+      background-color: #000;
+      border-radius: 10px;
+      position: relative;
+      color: #fff;
+      box-shadow: -2px 2px 5px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    .team-member-card:hover {
+      border: 2px solid #eee;
+      cursor: pointer;
+      text-align: center;
+      margin: 10px 20px;
+      transition: 0.3s;
+    }
+
+    .card-title {
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .card-img-1 {
+      width: 150px;
+      height: 150px;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 20px;
+      display: block;
+      justify-content: center;
+      border-radius: 50%;
+    }
+
+    .card-img-1:hover {
+      height: 170px;
+      width: 170px;
+
+    }
+
+    .feedback-card:hover {
+      filter: saturate(2);
+      transform: scale(1.03);
+    }
+
+    .imgg:hover {
+      filter: saturate(2);
+      transform: scale(1.03);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="home-logo">
+    <a href="/index.html">
+      <img src="/img/home.png" class="home-img">
+    </a>
+  </div>
+  <h1 class="feedback">FEEDBACK</h1>
+
+
+  <div class="feedback-card">
+
+
+    <img src="\img\feedback.png" class="imgg">
+    <h3>Please Rate Your Experience</h3>
+    <h1>⭐⭐⭐⭐⭐</h1>
+    <h3>Additional Comment</h3>
+    <input type="text" class="Comment-card">
+  </div>
+
+  <div class="card-container">
+
+    <div class="team-member-card">
+      <img src="\img\man.png" class="card-img-1">
+
+      <p class="card-title">Name : Rocky</p>
+      <p>This gaming flatform such to good!!
+        I am so impressed😍</p>
+
+    </div>
+
+
+
+    <div class="team-member-card">
+      <img src="\img\woman.png" class="card-img-1">
+
+      <p class="card-title">Name : Seema</p>
+
+      <p>I am earning daily 10k💸and i am so happy to this site
+        thanku!!🤑
+      </p>
+
+    </div>
+
+
+
+    <div class="team-member-card">
+      <img src="\img\man.png" class="card-img-1">
+
+      <p class="card-title">Name : Ritesh</p>
+      <p>ohh!! i am impressed😍</p>
+    </div>
+
+    <div class="team-member-card">
+      <img src="\img\woman.png" class="card-img-1">
+
+      <p class="card-title">Name : Aarohi</p>
+      <p>guys hurry up and come to this Gamezone site🤑💸
+        i like that many more times!!
+      </p>
+    </div>
+
+    <div class="team-member-card">
+      <img src="\img\man.png" class="card-img-1">
+
+      <p class="card-title">Name : Bob</p>
+
+      <p>many games options are available to earning money😍
+        so i can suggest absolutely visit here!!🤑
+      </p>
+    </div>
+
+    <div class="team-member-card">
+      <img src="\img\woman.png" class="card-img-1">
+
+      <p class="card-title">Name : Vira</p>
+
+      <p>I am meet a so many people in this platform.
+        and i am suggest any other people this site workable to our life😍💸
+      </p>
+    </div>
+
+
+</body>
+
 </html>
