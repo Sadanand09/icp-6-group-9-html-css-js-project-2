@@ -13,11 +13,11 @@
 }
 .home-logo{
     margin: 20px;
-    position: relative;
-    right: 935px;
+    /* background-color: red */
+    
 }
 .home-img{
-    background-color: red
+    background-color: red;
     border-radius: 100px;
 
 }
@@ -28,18 +28,26 @@ body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     height: 100%;
     color: #fff;
-    align-items: center;
+    
+    
+}
+h1{
     text-align: center;
 }
 
 .wrapper {
-    width: 800px;
-    margin: 300px auto;
+    width: 600px;
+    margin: 200px auto;
     color: $white;
     text-align: center;
-
+    align-items: center;
+    background-color: black;
+    height: 300px;
+    padding: 30px;
 }
-
+.value{
+    margin-bottom: 130px;
+}
 h1{
     font-size: 64px;
 }
