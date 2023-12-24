@@ -1,6 +1,5 @@
 body{
-    background-image: url("background.jpg");
-    background-repeat: no-repeat;
+    background-image: url("/img/bg9.jpeg");
     background-size: cover;
 }
 .home-logo{
@@ -9,6 +8,14 @@ body{
 .home-img{
     background-color: red;
     border-radius: 100px;
+}
+.rps{
+    margin: auto auto;
+}
+.head{
+
+    margin-top: 40px;
+    margin-bottom: 80px;
 }
 .choiceBtn{
     
@@ -37,8 +44,8 @@ body{
     color: transparent;
     background: black;
     color: white;
-    margin: 100px 100px 100px 475px;
-    margin-left: 475px;
+    /* margin: 100px 100px 100px 475px;
+    margin-left: 475px; */
 }
 #playerText{
     color: blueviolet;
@@ -51,7 +58,7 @@ body{
 }
 
 
-@media only screen and (max-width: 650px)
+/* @media only screen and (max-width: 650px)
 { 
     #gameDiv{
         background-color: black;
@@ -149,4 +156,4 @@ body{
         color: white;
         margin: 100px 100px 100px 475px;
     }
-}
+} */

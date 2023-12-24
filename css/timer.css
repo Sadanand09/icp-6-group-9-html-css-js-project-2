@@ -2,6 +2,7 @@ body{
     background-image: url("/img/bg9.jpeg");
     background-size: cover;
     color: white;
+    
 
 }
 .heading{
@@ -24,13 +25,9 @@ body{
     top: 200px;
     
 }
-.gif{
-    height: 350px;
-    position: relative;
-    top: 20px;
-    left: 90px;
-}
+
 .container{
+    margin-top: -100px;
     width: 200px;
     text-align: center;
     border: 2px solid gray;
@@ -40,6 +37,7 @@ body{
     border-radius: 25px;
     box-shadow: 2px 3px 2px;
     background-color: #000;
+    text-align: center;
 }
 .input{
     font-size: 20px;

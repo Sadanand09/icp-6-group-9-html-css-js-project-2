@@ -12,17 +12,18 @@
 .home-img{
   background-color: red;
   border-radius: 100px;
-  position: relative;
-  bottom: 490px;
-  right: 560px;
+  
 }
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+
   background-image:url(/img/bg9.jpeg);
   background-size: cover;
+}
+h1{
+  text-align: center;
+  color: #fff;
+  font-size: 44px;
+  margin-bottom: 60px;
 }
 .wrapper {
   width: 65vmin;
@@ -34,6 +35,9 @@ body {
   border-radius: 5px;
   background: #293447;
   box-shadow: 0 20px 40px rgba(52, 87, 220, 0.2);
+  text-align: center;
+  align-items: center;
+  margin: auto auto;
 }
 .game-details {
   color: #B8C6DC;
@@ -71,7 +75,7 @@ body {
   border-right: 1px solid #171B26;
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .wrapper {
     width: 90vmin;
     height: 115vmin;
@@ -87,4 +91,4 @@ body {
     padding: 15px 0;
     font-size: 1rem;
   }
-}
+} */
