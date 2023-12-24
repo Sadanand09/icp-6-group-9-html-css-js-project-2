@@ -1,7 +1,7 @@
 const words = [
     "A man was preparing the pitch for a cricket match",
     "santosh is going to play cricket",
-    "wellcome to my farmhouse",
+    "welcome to my farmhouse",
     "It is too much like a cricket match",
     "sham is go to play footboll",
 ];
@@ -9,11 +9,11 @@ const words = [
 
 const hints = [
    
-    "A man was preparing the pitch for a cricket match",
-    "santosh is going to play cricket",
-    "wellcome to my farmhouse",
+    "preparing A man was  the pitch  a cricket match for",
+    "play santosh going to cricket is",
+    "my farmhouse welcome to",
     "It is too much like a cricket match",
-    "sham is go to play footboll",
+    "is go to play sham footboll",
     
 ];
 
